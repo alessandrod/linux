@@ -130,7 +130,7 @@ static struct drm_gem_object * get_paddr(struct dce_file_priv *priv,
 	struct drm_gem_object *obj;
 	dma_addr_t paddr;
 	int ret;
-long t;
+	long t;
 
 	if (txn->bo_count >= ARRAY_SIZE(txn->objs)) {
 		DBG("too many buffers!");
@@ -143,9 +143,9 @@ long t;
 		return ERR_PTR(-ENOENT);
 	}
 
-t = mark(NULL);
+	t = mark(NULL);
 	ret = omap_gem_get_paddr(obj, &paddr, true);
-DBG("get_paddr in %ld us", mark(&t));
+	DBG("get_paddr in %ld us", mark(&t));
 	if (ret) {
 		DBG("cannot map: %d", ret);
 		return ERR_PTR(ret);
