@@ -1,3 +1,12 @@
+linux-ti-omap4 (3.4.0-1484.2) precise; urgency=low
+
+  [ Guillaume Aubertin ]
+
+  * UBUNTU: version 3.4.0-1484.2
+  * HACK: removing suspend/resume hooks from remoteproc
+
+ -- Guillaume Aubertin <g-aubertin@ti.com>  Mon, 18 June 2012 15:20:00 +0200
+
 linux-ti-omap4 (3.4.0-1484.1) precise; urgency=low
 
   [ Xavier Boudet ]
