@@ -1,3 +1,15 @@
+linux-ti-omap4 (3.4.0-1484.4) precise; urgency=low
+
+  [ Guillaume Aubertin ]
+
+  * UBUNTU: version 3.4.0-1484.4
+  * Add latest rpmsg/omx patch series
+  * omapdce: synchronize with GPU
+  * omapdce: simplify the logic a bit
+  * Reverting the clock hack for simcop
+
+ -- Guillaume Aubertin <g-aubertin@ti.com>  Tue, 26 June 2012 12:30:00 +0200
+
 linux-ti-omap4 (3.4.0-1484.3) precise; urgency=low
 
   [ Guillaume Aubertin ]
