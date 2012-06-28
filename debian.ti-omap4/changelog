@@ -1,3 +1,13 @@
+linux-ti-omap4 (3.4.0-1484.5) precise; urgency=low
+
+  [ Guillaume Aubertin ]
+
+  * UBUNTU: version 3.4.0-1484.5
+  * fix ref leak of external buffers (merge back to plugin API)
+  * omapdce: workaround vc1vdec codec bug
+
+ -- Guillaume Aubertin <g-aubertin@ti.com>  Thu, 28 June 2012 14:35:00 +0200
+
 linux-ti-omap4 (3.4.0-1484.4) precise; urgency=low
 
   [ Guillaume Aubertin ]
